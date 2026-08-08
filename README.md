@@ -1,4 +1,19 @@
-# Adaptive Data Extractor (Tier-1)
+﻿# Adaptive Data Extractor (Tier-1)
+
+**Repositorio:** https://github.com/datanalytics86/AdaptiveScraper
+
+## Clonar desde GitHub
+
+```bash
+git clone https://github.com/datanalytics86/AdaptiveScraper.git
+cd AdaptiveScraper
+python -m venv .venv
+# Windows: .venv\Scripts\activate
+source .venv/bin/activate
+pip install -r requirements.txt
+playwright install chromium
+python main.py https://www.checkeados.cl/comprar
+```
 
 Extractor adaptable de datos web: **cualquier URL → CSV + Excel** de calidad.
 
@@ -71,3 +86,4 @@ AdaptiveScraper/
 ## Disclaimer
 
 Uso responsable. Respeta ToS y `robots.txt`. No abuses de sitios web.
+
